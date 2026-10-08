@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="System PHL-IPP — Aplikasi permintaan Pekerja Harian Lepas (PHL) PT Inti Paket Prima (Indopaket)">
+  <meta name="theme-color" content="#1E88E5">
+  <title>System PHL-IPP — PT Inti Paket Prima</title>
+  <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/108DuGkkMKi8MLHOSyRgivPTm5FKseFBB">
+  <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/d/108DuGkkMKi8MLHOSyRgivPTm5FKseFBB">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" class="loader-screen">
+    <div class="loader-logo">
+      <img src="https://lh3.googleusercontent.com/d/108DuGkkMKi8MLHOSyRgivPTm5FKseFBB" alt="Indopaket">
+    </div>
+    <div class="loader-text">System PHL-IPP</div>
+    <div class="loader-sub">Permintaan PHL Jadi Lebih Mudah</div>
+    <div class="loader-spinner">
+      <div></div><div></div><div></div>
+    </div>
+    <div class="loader-hint">Memuat sistem...</div>
+  </div>
+
+  <!-- IFRAME APPS SCRIPT -->
+  <iframe
+    id="phlFrame"
+    src="https://script.google.com/macros/s/AKfycbxYZNeHIRpQmMXGOSwTaE69Srs369tRJrR7Ox5yt7GRbiCIdczmM2I5CYIWn1p7a-rq/exec"
+    frameborder="0"
+    allow="clipboard-write; camera; microphone"
+    allowfullscreen
+    sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-modals allow-downloads allow-top-navigation-by-user-activation"
+  ></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
